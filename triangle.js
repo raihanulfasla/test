@@ -16,9 +16,9 @@ for(i=1;i<=n;i++){
                 str+="*";
             }
             else{
-                if(i+1||j-1)
+                
 
-                str+="1 2"
+                str+="1 "
             }
            
            
@@ -29,4 +29,22 @@ for(i=1;i<=n;i++){
 
 str+='\n';
 }
+
 console.log(str);
+// for (let i = n - 1; i >= 1; i--) {
+//     let str= '*';
+
+//     for (let j = 1; j <= i; j++) {
+//         str += j;
+//     }
+
+//     for (let j = i - 1; j >= 1; j--) {
+//         str+= j;
+//     }
+
+//     str+= '*';
+//     console.log(str);
+// }
+
+// console.log('*');
+
